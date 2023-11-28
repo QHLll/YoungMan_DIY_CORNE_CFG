@@ -71,10 +71,10 @@
 
         layer_1 {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3    &kp N4             &kp N5           &kp LC(N)  &kp HOME  &kp UP    &kp END    &kp PG_UP  &trans
-&trans  &kp N6  &kp N7  &kp N8    &kp N9             &kp N0           &AE        &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &trans
-&trans  &pwd    &Phone  &Address  &kp LS(LG(COMMA))  &kp LC(LG(O))    &none      &none     &trans    &trans     &trans     &trans
-                        &trans    &trans             &trans           &mo 3      &trans    &trans
+&trans  &kp N1  &kp N2  &kp N3    &kp N4             &kp N5           &kp LC(N)  &kp HOME   &kp UP    &kp END    &kp PG_UP  &trans
+&trans  &kp N6  &kp N7  &kp N8    &kp N9             &kp N0           &AE        &kp LEFT   &kp DOWN  &kp RIGHT  &kp PG_DN  &trans
+&trans  &pwd    &Phone  &Address  &kp LS(LG(COMMA))  &kp LC(LG(O))    &kp EQUAL  &kp MINUS  &trans    &trans     &trans     &trans
+                        &trans    &trans             &trans           &mo 3      &trans     &trans
             >;
         };
 
